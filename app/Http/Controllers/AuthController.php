@@ -80,6 +80,7 @@ class AuthController extends Controller
             ], 500);
         }
     }
+   
     public function user()
     {
         if (!$user = auth()->user()) {
